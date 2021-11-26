@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.nav-items{
+    right: 0;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+}
+.header{
+    background-color: #264653;
+}
+.honda-details h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+}
+.honda-details p{
+    color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 300;
+}
+ 
+@media only screen and (max-width: 688px) {
+    
+    .hondaimage img{
+      width: 100%;
+    }
+  }
+
+.button-style{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #E76F51;
+    padding: 10px 30px;
+}
+.button-style{
+    text-decoration: none;
+}
+ /* fetured image  */
+
+.fetured h1{
+    font-size: 48px;
+    font-weight:500;
+}
+
+
+.grayscale{
+    filter: grayscale(1);
+}
+.fetured p{
+     color:#E76F51;
+}
+
+.fetured-img{
+    width: 90%;
+    margin:20px auto;
+}
+.fetured-img img{
+    width: 100%;
+   
+}
+
+/* fetured items end  */
+
+.client-color{
+    color: #E76F51;
+}
+
+
+
+.client h1{
+    font-weight: 600;
+    font-size: 48px;
+   
+}
+
+.card-area img{
+  margin-top: 40px;
+}
+
+
+
+
+.card-color h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #6C6C6C;
+}
+.fas{
+    color: #E77C40;
+}
+.card-color h4{
+    font-size: 14px;
+    color: #252B42;
+    font-weight: 600;
+}
+.card-color p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+}
